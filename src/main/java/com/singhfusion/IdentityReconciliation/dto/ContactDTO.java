@@ -8,8 +8,8 @@ import java.util.List;
 @Data
 @Builder
 public class ContactDTO {
-    private Long primaryContactId;
-    private List<String> emails;
-    private List<String> phoneNumbers;
-    private List<Long> secondaryContactIds;
+    public Long primaryContactId;
+    public List<String> emails;
+    public List<String> phoneNumbers;
+    public List<Long> secondaryContactIds;
 }

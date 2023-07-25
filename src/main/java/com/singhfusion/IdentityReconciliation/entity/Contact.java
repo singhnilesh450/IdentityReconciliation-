@@ -36,13 +36,13 @@ public class Contact {
     private LinkPrecedenceType linkPrecedence;
 
     @Column(name="created_at")
-    @CreationTimestamp
-    private LocalDateTime createdAt;
+
+    private String createdAt;
 
     @Column(name="updated_at")
-    @UpdateTimestamp
-    private LocalDateTime updatedAt;
+
+    private String updatedAt;
 
     @Column(name="deleted_at")
-    private LocalDateTime deletedAt;
+    private String deletedAt;
 }
